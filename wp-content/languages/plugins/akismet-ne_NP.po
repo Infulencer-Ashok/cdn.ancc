@@ -1,0 +1,150 @@
+# Translation of Plugins - Akismet Spam Protection - Stable (latest release) in Nepali
+# This file is distributed under the same license as the Plugins - Akismet Spam Protection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-05 17:58:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ne_NP\n"
+"Project-Id-Version: Plugins - Akismet Spam Protection - Stable (latest release)\n"
+
+#: views/notice.php:117
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "तपाईंले राख्नुभएको साँचो अमान्य छ । कृपया फेरि जाँच्नुहोस् ।"
+
+#: views/notice.php:55
+msgid "Network functions are disabled."
+msgstr "सन्जालका कामहरु बन्द गरिएको छ । "
+
+#: views/notice.php:23 views/notice.php:31
+msgid "Akismet has detected a problem."
+msgstr "अकिस्मेटले समस्या फेला पारेको छ ।"
+
+#: views/config.php:117
+msgid "Show approved comments"
+msgstr "स्वीकृत भएका प्रतिक्रियाहरु देखाउनुहोस्"
+
+#: views/config.php:184
+msgid "Save Changes"
+msgstr "परिवर्तनहरु बचत गर्नुहोस्"
+
+#: class.akismet-admin.php:529
+msgid "Awaiting spam check"
+msgstr "स्पाम जांच पर्खिंदै"
+
+#: class.akismet-widget.php:12
+msgid "Akismet Widget"
+msgstr "अकिस्मेट विजेट"
+
+#: class.akismet-widget.php:13
+msgid "Display the number of spam comments Akismet has caught"
+msgstr " अकिस्मेटले समातेको स्पाम टिप्पणीहरुको सङ्ख्या देखाउनुहोस् ।"
+
+#. translators: The placeholder is the number of pieces of spam blocked by
+#. Akismet.
+#: class.akismet-widget.php:108
+msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgstr[0] "<strong>आकिस्मेट्‍</strong>ले <strong class=\"count\">%1$sस्पाम</strong> बन्द गर्यो"
+msgstr[1] "<strong>आकिस्मेट</strong>ले <strong class=\"count\">%1$s स्पाम</strong> रोकेको छ"
+
+#: class.akismet-admin.php:105 class.akismet-admin.php:241
+#: class.akismet-admin.php:710 views/config.php:66
+msgid "Settings"
+msgstr "निर्धारणहरु"
+
+#: class.akismet-admin.php:275
+msgid "Cheatin&#8217; uh?"
+msgstr "बदमासी, हँ ?"
+
+#: class.akismet-admin.php:357
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgstr[0] "<a href=\"%1$s\">अकिस्मेट</a>ले तपाईँको साईटलाई %2$s वटा स्पाम प्रतिक्रियाबाट बचाई सक्यो | "
+msgstr[1] "<a href=\"%1$s\">अकिस्मेट</a>ले तपाईँको साईटलाई %2$s वटा स्पाम प्रतिक्रियाहरुबाट बचाई सक्यो | "
+
+#: class.akismet-admin.php:533
+msgid "Flagged as spam by Akismet"
+msgstr "अकिस्मेटले शंका गरेको"
+
+#: class.akismet-admin.php:553
+msgid "History"
+msgstr "इतिहास"
+
+#: class.akismet-admin.php:345
+msgctxt "comments"
+msgid "Spam"
+msgstr "स्पाम"
+
+#: class.akismet-admin.php:535
+msgid "Cleared by Akismet"
+msgstr "अकिस्मेटले ठिक देखेको"
+
+#: class.akismet-admin.php:576
+msgid "%s approved"
+msgid_plural "%s approved"
+msgstr[0] "%s स्वीकृत भयो"
+msgstr[1] "%sहरू स्वीकृत भए"
+
+#: class.akismet-admin.php:636
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr "स्वचालित पुन: प्रयास भइरहेको बेलामा अकिस्मेटले यो टिप्पणीलाई स्पामको रुपमा समातेको छ । "
+
+#. translators: The placeholder is a short string (like 'spam' or 'approved')
+#. denoting the new comment status.
+#: class.akismet-admin.php:663
+msgid "Comment status was changed to %s"
+msgstr "टिप्पणीको स्थिति %sमा परिवर्तन भएको छ"
+
+#: class.akismet-admin.php:639
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr "स्वचालित पुन: प्रयास भइरहेको बेलामा अकिस्मेटले यो टिप्पणीलाई सफाइ दिएको छ।"
+
+#: class.akismet-admin.php:553 class.akismet-admin.php:561
+msgid "View comment history"
+msgstr "टिप्पणीको इतिहास हेर्नुहोस्"
+
+#: class.akismet-admin.php:539
+msgid "Flagged as spam by %s"
+msgstr "%s ले स्पाम भनेर ध्वजा गाडेको छ"
+
+#: class.akismet-admin.php:541
+msgid "Un-spammed by %s"
+msgstr "%s ले स्पाम नभनेको"
+
+#: class.akismet-widget.php:69 class.akismet-widget.php:90
+msgid "Spam Blocked"
+msgstr "स्पाम छेकियो"
+
+#: class.akismet-widget.php:74
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: class.akismet-admin.php:219
+msgid "Akismet Stats"
+msgstr "अकिस्मेट तथ्याङ्कहरु"
+
+#: class.akismet-admin.php:422
+msgid "Check for Spam"
+msgstr "स्पामको लागि जाँच्नुहोस्"
+
+#. translators: The placeholder is an amount of time, like "7 seconds" or "3
+#. days" returned by the function human_time_diff().
+#: class.akismet-admin.php:683
+msgid "%s ago"
+msgstr "%s अगाडि"
+
+#: views/config.php:224
+msgid "Active"
+msgstr "सक्रिय"
+
+#: class.akismet-admin.php:86 class.akismet-admin.php:1262
+msgid "Akismet"
+msgstr "अकिस्मेट "
+
+#: class.akismet-admin.php:82
+msgid "Comment History"
+msgstr "टिप्पणीको इतिहास"
